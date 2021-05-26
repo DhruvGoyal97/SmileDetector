@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/face_detection_tv1"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="#00BCD4" />
+
+    <TextView
+        android:id="@+id/face_detection_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="textStart"
+        android:textColor="#530505"
+        android:textColorLink="#D31E1E" />
+</LinearLayout>
